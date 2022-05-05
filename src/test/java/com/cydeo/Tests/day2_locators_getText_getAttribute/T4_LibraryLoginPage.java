@@ -12,7 +12,7 @@ public class T4_LibraryLoginPage {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.get("https//library2.cybertekschool.com/login.html");
+        driver.get("https://library2.cybertekschool.com/login.html");
 
         WebElement usernameInput=driver.findElement(By.className("form-control"));
         usernameInput.sendKeys("incorrect@email.com");

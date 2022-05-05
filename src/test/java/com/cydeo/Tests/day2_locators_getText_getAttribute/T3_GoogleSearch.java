@@ -14,6 +14,7 @@ public class T3_GoogleSearch {
         driver.manage().window().maximize();
 
         driver.get("https://www.google.com");
+        driver.findElement(By.id("L2AGLb")).click();
 
         //Write apple in search box
         WebElement googleSearchBox=driver.findElement(By.name("q"));
