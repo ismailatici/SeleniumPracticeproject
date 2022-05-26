@@ -13,7 +13,7 @@ public class Task1_YahooTitleVerification {
         String expectedTitle="Yahoo|Mail,Weather,search,PoliticsNews,Finance,Sports & Videos";
         String actuelTitle= driver.getTitle();
         if (actuelTitle.equals(expectedTitle)){
-            System.out.println("Title is aexpected.Verification PASSED");
+            System.out.println("Title is expected.Verification PASSED");
         }else {
             System.out.println("Title is not as expected.Verification Failed!");
         }
